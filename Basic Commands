@@ -1,0 +1,9 @@
+docker-compose -f docker-compose.yml up -d
+
+docker exec -it [container id]/[name] bash
+
+docker ps
+
+docker-compose down
+
+docker-compose up
